@@ -1,0 +1,18 @@
+/* Style riêng của Ex 20. Chỉ áp dụng cho class .ex20-nav, KHÔNG viết thẳng "nav { }"
+   vì sẽ làm hỏng thanh Navbar Bootstrap của Ex 21 và Ex 22. */
+.ex20-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #ccc;
+}
+
+.ex20-nav a {
+  text-decoration: none;
+}
+
+.ex20-nav a:hover {
+  text-decoration: underline;
+}
